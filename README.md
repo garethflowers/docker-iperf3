@@ -17,4 +17,4 @@ docker run \
 
 ## License
 
-*	This image is released under the [MIT License](https://raw.githubusercontent.com/garethflowers/docker-iperf3/master/LICENSE).
+*	This image is released under the [MIT License](https://raw.githubusercontent.com/garethflowers/docker-iperf3/main/LICENSE).
