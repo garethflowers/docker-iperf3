@@ -15,8 +15,8 @@ jobs:
         uses: crazy-max/ghaction-docker-meta@v2
         with:
           images: |
-            ${{ github.repository_owner }}/docker-iperf3
-            ghcr.io/${{ github.repository_owner }}/docker-iperf3
+            ${{ github.repository_owner }}/iperf3
+            ghcr.io/${{ github.repository_owner }}/iperf3
           tags: |
             type=edge,branch=main
             type=semver,pattern={{version}}
