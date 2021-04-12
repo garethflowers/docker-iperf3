@@ -7,6 +7,7 @@ A simple [iPerf3](https://iperf.fr) server.
 ### Start an iPerf3 Server instance
 
 To start a container use the following:
+
 ```sh
 docker run \
 	--name my-iperf3-server \
@@ -17,4 +18,5 @@ docker run \
 
 ## License
 
-*	This image is released under the [MIT License](https://raw.githubusercontent.com/garethflowers/docker-iperf3/main/LICENSE).
+-   This image is released under the
+    [MIT License](https://raw.githubusercontent.com/garethflowers/docker-iperf3/main/LICENSE).
