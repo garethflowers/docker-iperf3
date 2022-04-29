@@ -1,16 +1,11 @@
 name: Publish
 on:
-  page_build:
   pull_request:
-    branches:
-      - main
   push:
     branches:
-      - "**"
-    tags:
-      - "*.*.*"
+      - main
 jobs:
-  main:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
