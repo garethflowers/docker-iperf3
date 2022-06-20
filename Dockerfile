@@ -1,10 +1,8 @@
 FROM alpine:3.16.0
 
 RUN apk add --no-cache --update \
-	iperf3==3.9-r1
+	iperf3==3.11-r0
 
+CMD [ "-s" ]
+ENTRYPOINT [ "iperf3" ]
 EXPOSE 5201/tcp 5201/udp
-
-ENTRYPOINT ["iperf3"]
-
-CMD ["-s"]
