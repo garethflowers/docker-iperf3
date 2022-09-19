@@ -1,0 +1,9 @@
+name: iperf3
+services:
+  iperf3:
+    build: ..
+    container_name: "iperf3"
+    image: "garethflowers/iperf3"
+    ports:
+      - "5201:5201/tcp"
+      - "5201:5201/udp"
