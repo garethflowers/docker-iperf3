@@ -1,1 +1,4 @@
-theme: jekyll-theme-minimal
+docker_repository: garethflowers/iperf3
+plugins:
+  - jekyll-remote-theme
+remote_theme: garethflowers/jekyll-simple-theme
