@@ -1,4 +1,5 @@
 docker_repository: garethflowers/iperf3
 plugins:
   - jekyll-remote-theme
+  - jekyll-sitemap
 remote_theme: garethflowers/jekyll-simple-theme
