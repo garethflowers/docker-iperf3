@@ -1,4 +1,4 @@
-FROM alpine:3.18.4
+FROM alpine:3.18.5
 
 RUN apk add --no-cache --update \
 	iperf3==3.14-r0
