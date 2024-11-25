@@ -1,7 +1,7 @@
 FROM alpine:3.19.1
 
 RUN apk add --no-cache --update \
-	iperf3==3.16-r0
+	iperf3==3.17.1-r0
 
 CMD [ "-s" ]
 ENTRYPOINT [ "iperf3" ]
