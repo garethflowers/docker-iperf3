@@ -12,7 +12,7 @@ To start a container use the following:
 docker run \
 	--name my-iperf3-server \
 	--detach \
-	--publish 5201 \
+	--publish 5201:5201/tcp \
 	garethflowers/iperf3
 ```
 
