@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v5
       - name: Prepare
         id: prep
-        uses: docker/metadata-action@v5.7.0
+        uses: docker/metadata-action@v5.8.0
         with:
           images: |
             ${{ github.repository_owner }}/iperf3
@@ -54,7 +54,7 @@ jobs:
           labels: ${{ steps.prep.outputs.labels }}
       - name: Update Description
         continue-on-error: true
-        uses: peter-evans/dockerhub-description@v4
+        uses: peter-evans/dockerhub-description@v5
         with:
           short-description: ${{ github.event.repository.description }}
           username: ${{ secrets.DOCKERHUB_USERNAME }}
